@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    padding: 3vmax 5vmax;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax 0;
+}
+.footer_top_left{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.footer_link_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vmax;
+}
+.footor_link{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+.footer_down{
+    margin-top: 1vmax;
+}
+.footer_down h4{
+    line-height: 1vmax;
+    padding: 1vmax 0;
+}
+.footer_down p{
+    font-weight: 400;
+}

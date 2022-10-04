@@ -1,0 +1,115 @@
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax 1.5vmax;
+    background-color: rgb(179, 180, 181);
+}
+.start_left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start_left h1{
+    font-size: 2.5vmax;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 6vmax;
+}
+.start_right{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.start_mid_top{
+    width: 40%;
+    margin: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    padding: 0 0vmax;
+}
+.start_mid_top_left{
+    margin: 5px;
+    /* display: flex; */
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width:30px;
+    height:30px;
+    margin-top: 5px;
+}
+.img img{
+    width: 100%;
+}
+.start_mid_top_left h3{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 1vmax;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.start_mid_top_right{
+    width: 100%;
+}
+.start_mid_top_right p{
+    font-size: 1vmax;
+}
+
+
+
+
+@media screen and (max-width: 667px){
+    
+    
+    
+    
+    .start_mid_top{
+        width: 40%;
+        margin: 5px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    
+        padding: 0 0vmax;
+    }
+    .start_mid_top_left{
+        margin: 5px;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img{
+        width:20px;
+        height:20px;
+        margin-top: 5px;
+    }
+    .img img{
+        width: 100%;
+    }
+    .start_mid_top_left h3{
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 1vmax;
+        text-align: center;
+        background-color: blue;
+        color: white;
+    }
+    .start_mid_top_right{
+        width: 100%;
+    }
+    .start_mid_top_right p{
+        font-size: 1vmax;
+    }
+}
